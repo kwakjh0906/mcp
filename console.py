@@ -45,4 +45,3 @@ def main():
 # 다른 파일에서 import 할 때는 main()이 실행되지 않도록 하기 위함
 if __name__ == "__main__":
     main()
-
