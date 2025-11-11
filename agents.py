@@ -32,7 +32,7 @@ class MathAgent(BaseAgent): # 부모(BaseAgent)의 생성자 호출해서 이름
         - 규칙 : 사용자가 입력한 문장이 'math'로 시작하면 내가 처리하겠다.
         - 예 : 'math 3 5'
         """
-        return message.startswith("math")
+        return message.startswith("math ")
     
     def handle(self, message : str) -> str:
         """
